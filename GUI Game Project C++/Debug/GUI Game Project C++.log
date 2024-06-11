@@ -1,0 +1,179 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GUI Game Project C++.vcxproj, GUI_Game_Project_C++.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Congratulations.cpp
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.cpp(17,2): error C2084: function 'Congratulations::Congratulations(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.h(17): message : see previous definition of '{ctor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.cpp(28,2): error C2084: function 'Congratulations::~Congratulations(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.h(24): message : see previous definition of '{dtor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.cpp(35,2): error C2084: function 'void Congratulations::InitializeComponent(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.h(44): message : see previous definition of 'InitializeComponent'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.cpp(129,2): error C2084: function 'void Congratulations::btnFinish_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.h(48): message : see previous definition of 'btnFinish_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.cpp(132,97): error C2084: function 'void Congratulations::btnPlayAgain_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Congratulations.h(50): message : see previous definition of 'btnPlayAgain_Click'
+  GuessForm.cpp
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.cpp(13,3): error C2084: function 'GuessForm::GuessForm(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.h(19): message : see previous definition of '{ctor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.cpp(24,3): error C2084: function 'GuessForm::~GuessForm(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.h(31): message : see previous definition of '{dtor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.cpp(38,3): error C2084: function 'void GuessForm::InitializeComponent(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.h(52): message : see previous definition of 'InitializeComponent'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.cpp(120,88): error C2084: function 'void GuessForm::btnParent_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.h(58): message : see previous definition of 'btnParent_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.cpp(125,86): error C2084: function 'void GuessForm::btnKids_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\GuessForm.h(61): message : see previous definition of 'btnKids_Click'
+  Level1.cpp
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(8,5): error C2374: 'trueAnswers': redefinition; multiple initialization
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(5): message : see declaration of 'trueAnswers'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(9,5): error C2374: 'FalseAnswers': redefinition; multiple initialization
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(8): message : see declaration of 'FalseAnswers'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(10,8): error C2086: 'double t1': redefinition
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(9): message : see declaration of 't1'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(25,2): error C2084: function 'Level1::Level1(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(26): message : see previous definition of '{ctor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(36,2): error C2084: function 'Level1::~Level1(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(38): message : see previous definition of '{dtor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(49,2): error C2084: function 'void Level1::InitializeComponent(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(62): message : see previous definition of 'InitializeComponent'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(170,80): error C2084: function 'void Level1::Level1_Load(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(67): message : see previous definition of 'Level1_Load'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(172,11): warning C4244: '=': conversion from 'time_t' to 'double', possible loss of data
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(173,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(363,85): error C2084: function 'void Level1::btnChoice1_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(71): message : see previous definition of 'btnChoice1_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(375,85): error C2084: function 'void Level1::btnChoice2_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(74): message : see previous definition of 'btnChoice2_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.cpp(387,85): error C2084: function 'void Level1::btnChoice3_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level1.h(77): message : see previous definition of 'btnChoice3_Click'
+  Level2.cpp
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.cpp(20,2): error C2084: function 'Level2::Level2(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.h(21): message : see previous definition of '{ctor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.cpp(31,2): error C2084: function 'Level2::~Level2(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.h(33): message : see previous definition of '{dtor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.cpp(44,2): error C2084: function 'void Level2::InitializeComponent(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.h(58): message : see previous definition of 'InitializeComponent'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.cpp(165,80): error C2084: function 'void Level2::Level2_Load(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.h(63): message : see previous definition of 'Level2_Load'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.cpp(166,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.cpp(315,85): error C2084: function 'void Level2::btnChoice1_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.h(66): message : see previous definition of 'btnChoice1_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.cpp(327,85): error C2084: function 'void Level2::btnChoice2_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.h(69): message : see previous definition of 'btnChoice2_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.cpp(340,85): error C2084: function 'void Level2::btnChoice3_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level2.h(73): message : see previous definition of 'btnChoice3_Click'
+  Level3.cpp
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(6,5): error C2374: 'trueAnswers': redefinition; multiple initialization
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(5): message : see declaration of 'trueAnswers'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(7,8): error C2086: 'double t2': redefinition
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(6): message : see declaration of 't2'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(21,2): error C2084: function 'Level3::Level3(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(22): message : see previous definition of '{ctor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(47,2): error C2084: function 'void Level3::InitializeComponent(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(56): message : see previous definition of 'InitializeComponent'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(168,80): error C2084: function 'void Level3::Level3_Load(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(59): message : see previous definition of 'Level3_Load'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(350,85): error C2084: function 'void Level3::btnChoice1_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(62): message : see previous definition of 'btnChoice1_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(364,85): error C2084: function 'void Level3::btnChoice2_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(65): message : see previous definition of 'btnChoice2_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(366,12): warning C4244: '=': conversion from 'time_t' to 'double', possible loss of data
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(378,85): error C2084: function 'void Level3::btnChoice3_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.h(68): message : see previous definition of 'btnChoice3_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\Level3.cpp(380,12): warning C4244: '=': conversion from 'time_t' to 'double', possible loss of data
+  LoginForm.cpp
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(302,3): error C2065: 'LoginForm': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(302,14): error C2065: 'obj1': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(302,27): error C2061: syntax error: identifier 'LoginForm'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(303,3): error C2065: 'obj1': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(307,3): error C2065: 'MainForm': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(307,13): error C2065: 'obj1': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(307,26): error C2061: syntax error: identifier 'MainForm'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(308,3): error C2065: 'obj1': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.cpp(24,2): error C2084: function 'LoginForm::LoginForm(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.h(24): message : see previous definition of '{ctor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.cpp(35,2): error C2084: function 'LoginForm::~LoginForm(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.h(31): message : see previous definition of '{dtor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.cpp(49,2): error C2084: function 'void LoginForm::InitializeComponent(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.h(54): message : see previous definition of 'InitializeComponent'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.cpp(159,85): error C2084: function 'void LoginForm::btnBack_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.h(57): message : see previous definition of 'btnBack_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.cpp(164,87): error C2084: function 'void LoginForm::btnSumbit_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\LoginForm.h(59): message : see previous definition of 'btnSumbit_Click'
+  MainForm.cpp
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(302,3): error C2065: 'LoginForm': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(302,14): error C2065: 'obj1': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(302,27): error C2061: syntax error: identifier 'LoginForm'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(303,3): error C2065: 'obj1': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(307,3): error C2065: 'MainForm': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(307,13): error C2065: 'obj1': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(307,26): error C2061: syntax error: identifier 'MainForm'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\RegistrationForm.h(308,3): error C2065: 'obj1': undeclared identifier
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.cpp(19,2): error C2084: function 'MainForm::MainForm(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.h(19): message : see previous definition of '{ctor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.cpp(30,2): error C2084: function 'MainForm::~MainForm(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.h(30): message : see previous definition of '{dtor}'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.cpp(44,2): error C2084: function 'void MainForm::InitializeComponent(void)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.h(51): message : see previous definition of 'InitializeComponent'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.cpp(123,85): error C2084: function 'void MainForm::btnLogin_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.h(56): message : see previous definition of 'btnLogin_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.cpp(129,89): error C2084: function 'void MainForm::btnRegister_Click(System::Object ^,System::EventArgs ^)' already has a body
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.h(60): message : see previous definition of 'btnRegister_Click'
+C:\Users\habdelhady\source\repos\GUI Game Project C++\GUI Game Project C++\MainForm.cpp(143,16): error C2264: 'MainForm::MainForm': error in function definition or declaration; function not called
+  ParentsForm.cpp
+  RegistrationForm.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12152,71): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12152,71): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12167,5): error C2371: 'IDataObject': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(590): message : see declaration of 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12342,33): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12342,33): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12355,33): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12355,33): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12368,33): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12368,33): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12416,47): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12416,47): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12436,43): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12436,43): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12547,55): error C3699: '*': cannot use this indirection on type 'IMessageFilter'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12547,55): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(12597,5): error C2371: 'IMessageFilter': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(604): message : see declaration of 'IMessageFilter'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15087,23): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15087,23): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15095,33): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15095,33): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15100,23): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15100,23): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15108,33): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15108,33): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15113,23): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15113,23): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15122,33): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.h(15122,33): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(423,70): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(423,70): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(1230,70): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(1230,70): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(1236,72): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(1236,72): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(3468,71): error C3699: '*': cannot use this indirection on type 'IDropTarget'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(3468,71): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(3508,5): error C2371: 'IDropTarget': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h(184): message : see declaration of 'IDropTarget'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(91,81): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(91,81): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(98,9): error C2371: 'IServiceProvider': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(44): message : see declaration of 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(115,47): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(115,47): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(239,28): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(239,28): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(249,38): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(249,38): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h(6870,70): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h(6870,70): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h(6872,66): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h(6872,66): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ole2.h(210,100): error C3699: '*': cannot use this indirection on type 'IDataObject'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ole2.h(210,100): message : compiler replacing '*' with '^' to continue parsing
+  Generating Code...
